@@ -1,0 +1,46 @@
+# Local media assets
+/footage/
+/music/
+
+# Generated media, project checkpoints, and job history
+/generated_images/
+/output/
+/youtube_projects/
+/logs/
+
+# Python environments and caches
+.venv/
+venv/
+*-venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Downloaded repositories, models, and caches
+/mlx-examples/
+/models/
+/cache/
+/.cache/
+*.safetensors
+*.ckpt
+*.gguf
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Manual script backups
+*.backup
+*.before_*
+*.bak
+*.swp
+*~
+
+# macOS metadata
+.DS_Store
+._*
